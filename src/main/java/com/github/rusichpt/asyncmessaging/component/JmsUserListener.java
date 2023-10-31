@@ -9,8 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Slf4j
 @Profile("artemis")
-public class UserJmsListener {
-
+public class JmsUserListener {
     @JmsListener(destination = "test.messaging.queue")
     public void receiveUser(User user) {
         log.info("Receive user {}", user);

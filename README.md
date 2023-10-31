@@ -1,7 +1,7 @@
 # async-messaging
 
-Демо проект на Spring Boot.  
-Использование брокеров сообщений.
+Р”РµРјРѕ РїСЂРѕРµРєС‚ РЅР° Spring Boot.  
+РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ Р±СЂРѕРєРµСЂРѕРІ СЃРѕРѕР±С‰РµРЅРёР№.
 
 ### ActiveMQ artemis
 
@@ -31,5 +31,12 @@ Exchange = test.messaging.exchange
 Queue = my_queue  
 RoutingKey = my_queue.routing_key
 
-Пример создания Exchange, Queue и Binding
+РџСЂРёРјРµСЂ СЃРѕР·РґР°РЅРёСЏ Exchange, Queue Рё Binding
 https://habr.com/ru/articles/703352/
+
+### Apache Kafka
+https://hub.docker.com/r/bitnami/kafka
+
+    run_kafka.cmd
+
+http://localhost:8090/
