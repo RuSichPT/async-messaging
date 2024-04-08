@@ -31,8 +31,11 @@ Exchange = test.messaging.exchange
 Queue = my_queue  
 RoutingKey = my_queue.routing_key
 
-Пример создания Exchange, Queue и Binding
+Пример создания Exchange, Queue и Binding  
 https://habr.com/ru/articles/703352/
+
+RabbitMQ: терминология и базовые сущности  
+https://habr.com/ru/companies/slurm/articles/703060/
 
 ### Apache Kafka
 https://hub.docker.com/r/bitnami/kafka
